@@ -52,3 +52,13 @@ h1:first-child{
   text-align: center;
 } /*  h1 태그가 부모 요소의 첫 번째 자식인 경우에 스타일을 적용, 가상 요소 */
 
+/* 독학 */
+.box-container{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.box:hover{
+  background-color: black; /* border 안쪽의 영역이 선태됨 */
+  border-color: black; /* 따라서 border 도 따로 선택해야 함 */ 
+}
